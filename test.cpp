@@ -7,7 +7,7 @@
   inline void ClearHaystack()
   {
     if (haystack_) delete[] haystack_;
-    haystack_ = nullptr;
+    haystack_ = nullptr;//yes
   }
 
   void CaseSensitive(bool value) { case_sensitive_ = value; };
