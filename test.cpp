@@ -21,7 +21,7 @@
   }
 
   bool FindFirst()
-  {
+  {//here work
     Reset();
     return FindNext();
   }
